@@ -1,195 +1,217 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;700;900&display=swap");
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-.social-midia {
-    flex-direction: row;
-    overflow-y: hidden;
-    margin-bottom: 30px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    overflow-y: hidden;
-}
-
-#main {
-    width: 100%;
-}
+/* 
+    background-color: rgb(221, 219, 219);
+    color: rgb(21, 133, 95);
+    font-family: "Outfit", sans-serif;
+*/
 
 footer{
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    background-color: #1B6204;
-    box-shadow: 0 16px 70px -8px rgba(28, 151, 48, 0.25);
-    border-radius: 10px 10px 0 0;
-    transition: background 0.3s linear;
-    margin-top: 30px;
-    flex-direction: row;
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(221, 219, 219);
 }
 
 .container_01 {
-    max-width: 1240px;
-    padding: 30px 40px;
-    margin: auto;
+  max-width: 1240px;
+  padding: 30px 40px;
+  margin: auto;
 }
 
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.info-rodape .logo-area {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+.profil .logo-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.info-rodape .logo-area img {
-    margin-top: 10px;
-    width: 80px;
-    height: 60px;
-    border-radius: 5%;
-    border: 1px solid #fff;
+.profil .logo-area img {
+  margin-top: 10px;
+  width: 80px;
+  height: 60px;
+  border-radius: 5%;
+  border: 1px solid #fff;
 }
 
-.logo-area .logo-nome {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0 1rem;
-    color: rgb(0, 0, 0);
+.logo-area .logo-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgb(21, 133, 95);
 }
 
 .desc-area {
-    max-width: 320px;
-    margin-bottom: 1.25rem;
+  max-width: 320px;
+  margin-bottom: 1.25rem;
 }
 
 .desc-area p {
-    color: #fff;
-    font-weight: 400;
-    line-height: 28px;
+  color: rgb(21, 133, 95);
+  font-weight: 400;
+  line-height: 28px;
 }
 
 .social-midia a {
-    color: #fff;
-    margin-right: 22px;
-    font-size: 25px;
-    width: 30px;
-	height:30px;
-    box-shadow:2px 2px 12px rgba(0,0,0,0.1);
+  color: rgb(21, 133, 95);
+  margin-right: 22px;
+  font-size: 25px;
+  width: 30px;
+  height:30px;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.1);
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.social-midia {
+  flex-direction: row;
+  align-items: center;
 }
 
 .social-midia a:hover {
-    color: deepskyblue;
+  color: deepskyblue;
 }
 
-.info-area {
-    display: flex;
-    overflow-y: hidden;
+.service-area {
+  display: flex;
 }
 
-.desc-rodape {
-    margin-right: 40px;
+.service-header {
+  margin-right: 40px;
 }
 
-li.info-ufra {
-    color: #000;
-    font-weight: 600;
+li.service-name {
+  color: rgb(21, 133, 95);
+  font-weight: 600;
 }
 
-.desc-rodape li a {
-    color: #fff;
-    padding: 1px;
-    font-weight: 400;
+.text-025 {
+  color: rgb(21, 133, 95);
+  background: rgb(135, 160, 139);
+  border-radius: 1px;
+  padding: 3px;
+  cursor: pointer;
+
 }
 
-.desc-rodape li a:hover {
-    color: deepskyblue;
+.text-024 {
+  color: rgb(21, 133, 95);
+  background: rgb(135, 160, 139);
+  padding: 4px;
+
 }
 
-.desc-rodape li {
-    margin-bottom: 5px;
+.service-header li a {
+  color: rgb(21, 133, 95);
+  padding: 1px;
+  font-weight: 400;
+}
+
+.service-header li a:hover {
+  color: deepskyblue;
+}
+
+.service-header li {
+  margin-bottom: 5px;
 }
 
 hr {
-    height: 1px;
-    border: none;
-    background-color: #fff;
-    margin-bottom: 1rem;
-}
-
-.info-dados {
-    color: #fff;
-}
-
-.icons {
-    width: 20px;
-    height: 20px;
-    color: rgba(122, 236, 141, 0.74);
+  height: 1px;
+  border: none;
+  background-color: #fff;
+  margin-bottom: 1rem;
 }
 
 .footer-btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
 }
 
 .cop-right {
-    color: #000;
-    display: flex;
-    align-items: center;
+  color: rgb(21, 133, 95);
+  display: flex;
+  align-items: center;
 }
 
 .cop-right span {
-    margin-left: 8px;
-    font-weight: 400;
-    letter-spacing: 0.125rem;
+  margin-left: 8px;
+  font-weight: 700;
+  letter-spacing: 0.135rem;
 }
 
-.cop-style {
-    color: #000;
+.btn-cadastro-01 {
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(135, 160, 139);
+  transition: box-shadow 0.2s;
 }
 
+.btn-cadastro-01:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(46, 127, 129), 0px 0px 5px rgb(20, 90, 95) inset;
+}
+
+.logo-01 img {
+  width: 40px;
+  margin-top: 20px;
+}
+
+.rodape {
+  flex-direction: row;
+}
+
+.info-area {
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc-rodape {
+  margin: 40px;
+}
 
 @media screen and (max-width: 999px) {
-    .rodape {
-        flex-wrap: wrap;
-        justify-content: left;
-    }
-    .info-area {
-        flex-wrap: wrap;
-        justify-content: left;
-    }
-    .desc-rodape {
-        margin-left: 0;
-        margin-right: 40px;
-    }
-    .social-midia {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .content-footer {
+      flex-wrap: wrap;
+      justify-content: left;
+  }
+  .service-area {
+      flex-wrap: wrap;
+      justify-content: left;
+  }
+  .service-header {
+      margin-left: 0;
+      margin-right: 40px;
+  }
+  .social-midia {
+      flex-wrap: wrap;
+      justify-content: center;
+
+  }
+  .rodape {
+    flex-direction: column;
+  }
+  .desc-rodape {
+    margin: 20px;
+  }
 }
 
 @media screen and (max-width: 510px){
-    .desc-rodape {
-        margin-bottom: 8px;
-    }
-    .cop-right {
-        margin-bottom: 8px;
-    }
+  .service-header {
+      margin-bottom: 8px;
+  }
+  .cop-right {
+      margin-bottom: 8px;
+  }
 }
